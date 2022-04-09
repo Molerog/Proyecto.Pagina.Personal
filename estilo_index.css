@@ -5,6 +5,10 @@
     list-style: none;
 }
 
+a:link{
+    text-decoration: none;
+}
+
 body{
     background-image: url("/fotos/hand.jpg");
     background-size:cover;
@@ -57,7 +61,8 @@ body{
     justify-content: space-around;
     font-size: 2em;
     background-color: #ffe8d6;
-    padding:0.2em;   
+    padding:0.2em; 
+      
 }
 
 .container_phrase{
