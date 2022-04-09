@@ -64,16 +64,16 @@ body{
     height: 3em;
     
 }
-.bibliography{
+.biography{
     border: 1px solid blue;
     width: 60%;
     display:flex;
     align-items: center;
     justify-content:center;
-    font-family: 'Press Start 2P', cursive;
     font-size: 1.5em;
     background-color: black;
     color:white;
+    font-family: 'Press Start 2P', cursive;
 
 }
 .video{
@@ -81,8 +81,34 @@ body{
     height:3em; 
     width:48em;
 }
-
+.container_biopic{
+    display:flex;
+    justify-content: space-around;
+    padding:3em;
+}
 .bio{
-    
+    font-family: 'Press Start 2P', cursive;
+    line-height: 4em;       
+}
+.pic{
+    display:flex;
+    align-items: center;
+    width:30%;
+}
+
+.line{
+    width: 80%;
+    margin:auto;
+}
+
+.container_info{
+    width:90%;
+    margin:auto;
+}
+
+.info{
+    display:flex;
+    justify-content: center;
+    line-height: 3em;
 }
         
