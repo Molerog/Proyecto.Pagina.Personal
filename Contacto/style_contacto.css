@@ -5,12 +5,13 @@
     list-style: none;
 }
 
-body{
-   
-}
-
 a:link{
     text-decoration: none;
+}
+
+body{
+   
+    
 }
 
 .container_top{
@@ -59,16 +60,18 @@ a:link{
     justify-content: space-around;
     font-size: 2em;
     background-color: #ffe8d6;
-    padding:0.2em; 
-    
+    padding:0.2em;   
+   
 }
 
-.container_portgif{
+.container_contactgif{
     display: flex;
     justify-content: space-between;
-    height: 3em;    
+    height: 3em;
+    
+    
 }
-.port{
+.biography{
     width: 60%;
     display:flex;
     align-items: center;
@@ -79,63 +82,85 @@ a:link{
     font-family: 'Press Start 2P', cursive;
     letter-spacing: 1em;
 }
-
 .video{
     object-fit:cover;
     height:3em; 
     width:48em;
 }
 
-.central_container{
+.phrase{
+    display:flex;
+    justify-content: center;
+    font-family: 'Press Start 2P', cursive;
+    padding:3em;
+}
+
+.form_container{
     display:flex;
     flex-direction: column;
     align-items: center;
-    align-content: center;
-    height: 50vw; 
-    font-family: 'Press Start 2P', cursive;
-    justify-content: space-around;              
-}  
+    padding:1em; 
+    border-style: dotted;
+    justify-items: start;  
+    margin-right:15%;
+    margin-left: 15%;
+    
+    
+    
+}
 
-.projects{
+.name_surn{
+    display:flex;
+    flex-direction: column;
     padding:2em;
-    font-size: 3em;
-}
-
-.pro1_hide1{
-    padding:5em;
-    display:flex;
-    width:80em;
-    justify-content: space-around;
     
 }
 
-.pro2_hide2{
-    padding:5em;
-    display:flex;
-    width:80em;
-    justify-content: space-around;
-    flex-direction: row-reverse;
-
-}
-
-.pro3_hide3{
-    padding:5em;
-    display:flex;
-    width:80em;
-    justify-content: space-around;
-    
-}
-
-.pro4_hide4{
-    padding:5em;
-    display:flex;
-    width:80em;
-    justify-content: space-around;
-    flex-direction:row-reverse;
-}
-
-hr{
+.reset{
     width:50%;
-    margin:auto;
 }
 
+.hour{
+    display:flex;
+    flex-direction: column;
+    
+}
+
+.phrase2{
+    font-family: sans-serif;
+    
+    
+    
+}
+
+.em{
+    display:flex;
+    flex-direction: column;
+    
+}
+
+.phrase1{
+    font-family: sans-serif; 
+    display:flex;
+
+}
+
+.textarea{
+    display:flex;
+    justify-content: start;
+    margin-bottom:8em;
+    flex-direction: column;
+    align-items: center; 
+    margin-top: 2em;
+}
+
+.placetext{
+    width:50em;
+    height:10em;
+}
+
+.button2{
+    display:flex;   
+    justify-content: start;
+    width:42em;
+}

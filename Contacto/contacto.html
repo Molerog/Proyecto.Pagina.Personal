@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contacto</title>
+  <link rel="stylesheet" href="/Contacto/style_contacto.css">
+</head>
+<body>
+  <header class="container_top">
+    <ul class="box_top_left">
+      <li class="logo">LOGO</li>
+      <li class="symbol">|</li>
+      <li class="empresa">NOMBRE EMPRESA</li>
+    </ul>
+      <div class="container_top_right">     
+        <span class="phone"><b>Teléfono:</b> 622709060</span>
+        <span class="mail"><b>Correo electrónico:</b> moltorger@gmail.com</span>
+        <span class="algo">Aquí falta algo que no sé</span>
+        <span class="adress">Avd.Plaza Arturo Piera, España,Valencia</span> 
+    </div>          
+  </header>   
+  <main>
+  <nav>
+    <ul class="container_nav">
+      <li class="hover1"><a href="/index.html">INICIO</a></li>
+      <li class="hover2"><a href="/biografía/biografía.html">BIOGRAFIA</a></li>
+      <li class="hover3"><a href="/portfolio/portfolio.html">PORTFOLIO</a></li>
+      <li class="hover4"><a href="/Contacto/contacto.html">CONTACTO</a></li>
+    </ul>
+  </nav>
+		<div class="container_contactgif">
+			<span class="biography">CONTACTO</span>
+			<video class="video">
+			<source src="/videos/biografia.mp4" type="video/mp4" autoplay="true">
+			Your browser does not support the video tag.</source>
+			</video>
+		</div>
+		<span class="phrase">Ponte en contacto con nosotros y trabajemos juntos</span>
+		<form class="form_container">
+			<div class="name_surn">
+				<label for="name">Nombre:</label>
+				<input type="text" id="name" value="" placeholder="Introduzca su nombre" required>
+				<label for="surname">Apellido:</label>
+				<input type="text" id="surname" value="" placeholder="Introduzca su apellido" required>
+				<input class="reset" type="reset"> 
+			</div> <hr width="50%"><br>
+      <span class="phrase1">Si lo prefieres te contactamos por correo</span>
+      <div class="em">
+        <label for="">Correo Electrónico:</label>
+        <input type="email" id="em" name="em" placeholder="Introduce tu correo">  
+        <input class="reset" type="reset">
+      </div><br><br><br><hr width="50%"><br>
+      <span class="phrase2">También podemos llamarte en la fecha y hora que indiques</span>	
+			<div class="hour">	        
+				<label for="number">Teléfono:</label>
+				<input type="numbers" id="number" name="number" value="" placeholder="Introduce tu número">
+				<label for="calendar">Selecciona fecha:</label>
+				<input type="date" id="calendar" name="calendar"value="" min="1920-01-02">
+				<label for="hour">A qué hora prefieres</label>
+				<input type="time" id="hour" name="hour">
+        <input class="reset" type="reset"><br>
+        <input class="button" type="submit">
+      </div>
+		</form>
+    <form class="textarea">
+      <textarea class="placetext" placeholder="Déjanos algún comentario!"></textarea>
+      <div class="button2">
+        <input type="submit">
+      </div>
+     </form>	
+	</main>
+</body>
+
+    
