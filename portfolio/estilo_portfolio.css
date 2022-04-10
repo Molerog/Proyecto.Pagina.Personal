@@ -13,6 +13,7 @@ body{
     display:flex;
     flex-wrap:wrap;    
     justify-content: center;
+    background-color: black;
 }
 
 .container_top{
@@ -98,10 +99,12 @@ body{
     align-items: center;
     align-content: center;
     font-family: 'Press Start 2P', cursive;
-    justify-content: space-around; 
-    background-color: green;   
+    justify-content: space-around;  
     width:80%;  
-    margin:auto;           
+    margin:auto;  
+    background-color: green;  
+    border-radius: 3em;
+    border-style: dashed;      
 }  
 
 .projects{
@@ -113,6 +116,7 @@ body{
     
     display:flex;
     justify-content: space-around;
+    margin-top:3em;
        
 }
 
@@ -120,71 +124,40 @@ body{
     display:flex;   
     justify-content: space-around;
     flex-direction: row-reverse;
+    margin-top:3em;
 
 }
 
 .pro3_hide3{
-    padding:5em;
     display:flex;
-    width:80em;
     justify-content: space-around;
-    
+    margin-top:3em;    
 }
 
 .pro4_hide4{
-    padding:5em;
     display:flex;
-    width:80em;
+    margin-top:3em;
     justify-content: space-around;
     flex-direction:row-reverse;
+    margin-bottom: 3em;
 }
 
 hr{
     width:50%;
     margin:auto;
+    border:dotted;
 }
 
 .pro1{
    border: 1em solid black; 
    padding:5em; 
-   transition-duration:400ms;   
+   transition-duration:400ms;
+   z-index:2; 
+     
 }
 
 
 .hide1{
-    border: 1em dotted black;
-    padding:5em;  
-    position:absolute;  
-    opacity:0;
-    transition: visibility 1s, opacity 0.3s linear;
-    z-index: -1;      
-}
-
-.pro1:hover{
-    background-color: blue;
-    -webkit-transform: scale(1.3);
-    -ms-transform: scale(1.3);
-    transform: scale(1.3); 
-    opacity:0;  
-}
-
-.pro1_hide1:hover .hide1{
-    visibility: visible;
-    opacity: 1;
-   
-}
-
-
-.pro2{
-    border: 1em solid black; 
-    padding:5em;
-    transition-duration:400ms; 
-    
-
-}
-
-.hide2{
-    
     border: 1em solid black; 
     padding:5em;
     visibility: hidden;
@@ -193,6 +166,44 @@ hr{
     position:absolute;
     z-index: -1;
     transition:400ms;
+    border-style: dashed;
+    background-color:darkmagenta;
+}
+
+
+.pro1:hover{
+    background-color: blue;
+    -webkit-transform: scale(1.3);
+    -ms-transform: scale(1.3);
+    transform: scale(1.3);      
+}
+
+
+
+.pro1_hide1:hover .hide1{
+    visibility: visible;
+    opacity: 1;
+    transform: translateX(-20em);
+    z-index:0;
+}
+
+
+.pro2{
+    border: 1em solid black; 
+    padding:5em;
+    transition-duration:400ms; 
+}
+
+.hide2{  
+    border: 1em solid black; 
+    padding:5em;
+    visibility: hidden;
+    opacity: 0;
+    transition: visibility 1s, opacity 8 linear;
+    position:absolute;
+    z-index: -1;
+    transition:400ms;
+    border-style: dashed;
 }
 
 .pro2:hover{
@@ -205,32 +216,80 @@ hr{
 .pro2_hide2:hover .hide2{
     visibility: visible;
     opacity: 1;
-    transform: translateX(20em);
+    transform: translateX(20.5em);
     z-index:0;
 }
-
 
 .pro3{
     
     border: 1em solid black; 
     padding:5em;
+    transition-duration:400ms;
+    z-index:2; 
 }
 
 .hide3{
-
     border: 1em solid black; 
     padding:5em;
+    visibility: hidden;
+    opacity: 0;
+    transition: visibility 1s, opacity 8 linear;
+    position:absolute;
+    z-index: -1;
+    transition:400ms;
+    border-style: dashed;
+    background-color:darkmagenta;
+}
+
+
+
+
+.pro3:hover{
+    -webkit-transform: scale(1.3);
+    -ms-transform: scale(1.3);
+    transform: scale(1.3); 
+    background-color: yellow;     
+}
+
+.pro3_hide3:hover .hide3{
+    visibility: visible;
+    opacity: 1;
+    transform: translateX(-20em);
+    z-index:0;
 }
 
 .pro4{
     
     border: 1em solid black; 
     padding:5em;
+    transition-duration:400ms; 
 }
 
-.hide4{
-    
+.hide4{    
     border: 1em solid black; 
     padding:5em;
+    border: 1em solid black; 
+    padding:5em;
+    visibility: hidden;
+    opacity: 0;
+    transition: visibility 1s, opacity 8 linear;
+    position:absolute;
+    z-index: -1;
+    transition:400ms;
+    border-style: dashed;
+}
+
+.pro4:hover{
+    background-color:white;
+    -webkit-transform: scale(1.3);
+    -ms-transform: scale(1.3);
+    transform: scale(1.3); 
+}
+
+.pro4_hide4:hover .hide4{
+    visibility: visible;
+    opacity: 1;
+    transform: translateX(20.5em);
+    z-index:0;
 }
 
