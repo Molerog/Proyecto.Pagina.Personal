@@ -10,8 +10,9 @@ a:link{
 }
 
 body{
-   
-    
+    display:flex;
+    flex-wrap:wrap;    
+    justify-content: center;
 }
 
 .container_top{
@@ -19,6 +20,7 @@ body{
     justify-content: space-between;
     height: 5vw;
     background-color: #6b705c;
+    width:100%
 }
 
 .box_top_left{
@@ -55,12 +57,17 @@ body{
     font-style: italic;   
 }
 
+.global_container{
+    width:100%;
+}
+
 .container_nav{
     display:flex;
     justify-content: space-around;
     font-size: 2em;
     background-color: #ffe8d6;
     padding:0.2em;   
+    
    
 }
 
@@ -68,6 +75,7 @@ body{
     display: flex;
     justify-content: space-between;
     height: 3em;
+    
     
     
 }
@@ -100,20 +108,16 @@ body{
     flex-direction: column;
     align-items: center;
     padding:1em; 
-    border-style: dotted;
+    border-style:dashed;
     justify-items: start;  
     margin-right:15%;
-    margin-left: 15%;
-    
-    
-    
+    margin-left: 15%;       
 }
 
 .name_surn{
     display:flex;
     flex-direction: column;
-    padding:2em;
-    
+    padding:2em;   
 }
 
 .reset{
@@ -122,27 +126,22 @@ body{
 
 .hour{
     display:flex;
-    flex-direction: column;
-    
+    flex-direction: column;    
 }
 
 .phrase2{
     font-family: sans-serif;
-    
-    
-    
+    padding:1em;      
 }
 
 .em{
     display:flex;
-    flex-direction: column;
-    
+    flex-direction: column;    
 }
 
 .phrase1{
     font-family: sans-serif; 
-    display:flex;
-
+    padding:1em;
 }
 
 .textarea{
@@ -163,4 +162,8 @@ body{
     display:flex;   
     justify-content: start;
     width:42em;
+}
+
+.global_container{
+    width:100%;
 }
