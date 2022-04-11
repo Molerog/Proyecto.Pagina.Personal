@@ -98,8 +98,7 @@ body{
     font-size: xx-large;
     font-family: 'Press Start 2P', cursive;
     position:relative;
-    height:2em;
-    
+    height:2em;    
 }
 
 .normal_phrase{
@@ -116,9 +115,9 @@ body{
     justify-content: center;
     align-items: center; 
     background-color: black;
-    line-height: 2em;
-    
+    line-height: 2em;    
 }
+
 .switch{
     display: inline-block;
         background-color: #7b38d8;
@@ -136,6 +135,10 @@ body{
         cursor: pointer;
         margin: 5px;
         font-family: 'Press Start 2P', cursive;
+}
+.switch:hover{
+    
+
         
 }
 .royalties:before{

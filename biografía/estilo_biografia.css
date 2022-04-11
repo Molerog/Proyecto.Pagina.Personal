@@ -13,6 +13,7 @@ body{
     display:flex;
     flex-wrap:wrap;    
     justify-content: center;
+    background-color: black;
 }
 
 .container_top{
@@ -93,7 +94,14 @@ body{
 .container_biopic{
     display:flex;
     justify-content: space-around;
-    padding:3em;
+    background-color: green;
+    width:80%;
+    margin:auto;
+    border-style: dashed;
+    border-radius: 3em;
+    outline: #8a36ba solid 10px;
+    margin-top:1em;
+    
     
 }
 .bio{
@@ -114,6 +122,12 @@ body{
 .container_info{
     width:90%;
     margin:auto;
+    background-color: green;
+    margin-top:3em;
+    padding:2em;
+    border-style:dashed;
+    border-radius:3em;
+    outline: #8a36ba solid 10px;
 }
 
 .info{

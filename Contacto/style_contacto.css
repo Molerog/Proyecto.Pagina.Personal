@@ -13,6 +13,7 @@ body{
     display:flex;
     flex-wrap:wrap;    
     justify-content: center;
+    background-color: black;   
 }
 
 .container_top{
@@ -58,7 +59,7 @@ body{
 }
 
 .global_container{
-    width:100%;
+   
 }
 
 .container_nav{
@@ -101,6 +102,7 @@ body{
     justify-content: center;
     font-family: 'Press Start 2P', cursive;
     padding:3em;
+    color:white;
 }
 
 .form_container{
@@ -109,15 +111,26 @@ body{
     align-items: center;
     padding:1em; 
     border-style:dashed;
+    border-radius: 3em;
     justify-items: start;  
-    margin-right:15%;
-    margin-left: 15%;       
+    background-color: purple;
+    margin:auto;
+    width:50%;
+    outline: green solid 10px;
+    
+    
+    
+     
 }
 
 .name_surn{
     display:flex;
     flex-direction: column;
-    padding:2em;   
+    padding:2em;
+    background-color: green;
+    border-style:dashed;
+    border-radius: 3em;
+    width:30em;   
 }
 
 .reset{
@@ -126,22 +139,39 @@ body{
 
 .hour{
     display:flex;
-    flex-direction: column;    
-}
+    flex-direction: column; 
+    background-color: green;
+    border-style:dashed;
+    border-radius: 3em; 
+    padding:2em; 
 
-.phrase2{
-    font-family: sans-serif;
-    padding:1em;      
-}
-
-.em{
-    display:flex;
-    flex-direction: column;    
 }
 
 .phrase1{
-    font-family: sans-serif; 
+    margin-top:1em;
+    color:white;
+    font-family: 'Press Start 2P', cursive;
+}
+
+.phrase_form{
+    font-family: sans-serif;
     padding:1em;
+    color:white; 
+    font-family: 'Press Start 2P', cursive;     
+}
+
+.phrase2{
+    font-family: 'Press Start 2P', cursive;
+    color:white;
+}
+.em{
+    display:flex;
+    flex-direction: column;  
+    background-color: green;
+    width:30%; 
+    border-style:dashed;
+    border-radius: 3em; 
+    padding:2em;
 }
 
 .textarea{
@@ -150,7 +180,14 @@ body{
     margin-bottom:8em;
     flex-direction: column;
     align-items: center; 
-    margin-top: 2em;
+    margin-top: 4em;
+    background-color: green;
+    border-radius: 3em;
+    border-style:dashed;
+    padding:3em;
+    outline: #8a36ba solid 10px;
+    
+    
 }
 
 .placetext{
@@ -166,4 +203,21 @@ body{
 
 .global_container{
     width:100%;
+}
+
+.button_container{
+    width:14em;
+    margin:0;
+    padding:0;
+    display:flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+}
+
+.reset{
+    width:4em;
+}
+
+.button{
+    width:8em;
 }

@@ -104,7 +104,10 @@ body{
     margin:auto;  
     background-color: green;  
     border-radius: 3em;
-    border-style: dashed;      
+    border-style: dashed; 
+    outline: #8a36ba solid 10px;
+    margin-top:1em;   
+    
 }  
 
 .projects{

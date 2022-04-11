@@ -43,15 +43,13 @@
 				<label for="name">Nombre:</label>
 				<input type="text" id="name" value="" placeholder="Introduzca su nombre" required>
 				<label for="surname">Apellido:</label>
-				<input type="text" id="surname" value="" placeholder="Introduzca su apellido" required>
-				<input class="reset" type="reset"> 
-			</div> <hr width="50%"><br>
-      <span class="phrase1">Si lo prefieres te contactamos por correo</span>
+				<input type="text" id="surname" value="" placeholder="Introduzca su apellido" required>				
+			</div><br>
+      <span class="phrase_form">Si lo prefieres te contactamos por correo</span>
       <div class="em">
-        <label for="">Correo Electrónico:</label>
+        <label for="em">Correo Electrónico:</label>
         <input type="email" id="em" name="em" placeholder="Introduce tu correo">  
-        <input class="reset" type="reset">
-      </div><br><br><br><hr width="50%"><br>
+      </div><br><br><br><br>
       <span class="phrase2">También podemos llamarte en la fecha y hora que indiques</span>	
 			<div class="hour">	        
 				<label for="number">Teléfono:</label>
@@ -59,10 +57,12 @@
 				<label for="calendar">Selecciona fecha:</label>
 				<input type="date" id="calendar" name="calendar"value="" min="1920-01-02">
 				<label for="hour">A qué hora prefieres</label>
-				<input type="time" id="hour" name="hour">
-        <input class="reset" type="reset"><br>
+				<input type="time" id="hour" name="hour"><br>
+      </div><br>
+       <div class="button_container">
+        <input class="reset" type="reset" value="Borrar">
         <input class="button" type="submit">
-      </div>
+       </div>
 		</form>
     <form class="textarea">
       <textarea class="placetext" placeholder="Déjanos algún comentario!"></textarea>
