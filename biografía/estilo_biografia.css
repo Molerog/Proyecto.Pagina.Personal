@@ -19,6 +19,7 @@ body{
     flex-wrap:wrap;    
     justify-content: center;
     background-color: black;  
+    margin-bottom:2em;
 }
 
 .video{
@@ -94,10 +95,10 @@ body{
     display: flex;
     justify-content: center;
     height: 3em;
-    padding:2em;
-    
-    
+    padding:2em;   
 }
+
+
 .biography{
     width: 60%;
     display:flex;
