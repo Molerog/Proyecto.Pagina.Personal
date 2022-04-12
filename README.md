@@ -21,7 +21,7 @@ Para CSS he utilizado la propiedad display:flex lacual me ha servido para distri
 
 ![Home Page](/fotos/Main.png "Home Page")
 
-![](/fotos/Seccion.png
+![Sección](/fotos/Seccion.png "Seccion")
 
 
 ## Built With
