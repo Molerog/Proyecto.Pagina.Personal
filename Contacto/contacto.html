@@ -7,36 +7,34 @@
   <title>Contacto</title>
   <link rel="stylesheet" href="/Contacto/style_contacto.css">
 </head>
-<body>
-  <header class="container_top">
-    <ul class="box_top_left">
-      <li class="logo">LOGO</li>
-      <li class="symbol">|</li>
-      <li class="empresa">NOMBRE EMPRESA</li>
-    </ul>
-      <div class="container_top_right">     
-        <span class="phone"><b>Teléfono:</b> 622709060</span>
-        <span class="mail"><b>Correo electrónico:</b> moltorger@gmail.com</span>
-        <span class="algo">Aquí falta algo que no sé</span>
-        <span class="adress">Avd.Plaza Arturo Piera, España,Valencia</span> 
-    </div>          
-  </header>   
-  <main class="global_container">
+<body class="cursor">   
+  <header class="global_container">
   <nav>
     <ul class="container_nav">
       <li class="hover1"><a href="/index.html">INICIO</a></li>
+      <li class="palo">- | -</li>
       <li class="hover2"><a href="/biografía/biografía.html">BIOGRAFIA</a></li>
+      <li class="palo">- | -</li>
       <li class="hover3"><a href="/portfolio/portfolio.html">PORTFOLIO</a></li>
+      <li class="palo">- | -</li>
       <li class="hover4"><a href="/Contacto/contacto.html">CONTACTO</a></li>
     </ul>
   </nav>
+  <hr class="line">
+  <audio autoplay >
+		<source src= "/Musica/ContactoMusic.mp3" type="audio/mpeg">
+		Your browser does not support the audio tag.
+	  </audio>
+  <header class="container_top">  
 		<div class="container_contactgif">
-			<span class="biography">CONTACTO</span>
+			<span class="contact">CONTACTO</span>
 			<video class="video">
 			<source src="/videos/biografia.mp4" type="video/mp4" autoplay="true">
 			Your browser does not support the video tag.</source>
 			</video>
-		</div>
+    </div>
+  </header>
+  <main class="global_container">
 		<span class="phrase">Ponte en contacto con nosotros y trabajemos juntos</span>
 		<form class="form_container">
 			<div class="name_surn">
@@ -44,13 +42,17 @@
 				<input type="text" id="name" value="" placeholder="Introduzca su nombre" required>
 				<label for="surname">Apellido:</label>
 				<input type="text" id="surname" value="" placeholder="Introduzca su apellido" required>				
-			</div><br>
+			</div><br><br>
+      <video class="video" autoplay loop>
+        <source src="/videos/video.mp4" type="video/mp4">
+          Your browser does not support the video tag.</source>
+      </video>
       <span class="phrase_form">Si lo prefieres te contactamos por correo</span>
       <div class="em">
         <label for="em">Correo Electrónico:</label>
         <input type="email" id="em" name="em" placeholder="Introduce tu correo">  
       </div><br><br><br><br>
-      <span class="phrase2">También podemos llamarte en la fecha y hora que indiques</span>	
+      <span class="phrase2">También podemos llamarte en la fecha y hora que indiques</span><br>
 			<div class="hour">	        
 				<label for="number">Teléfono:</label>
 				<input type="numbers" id="number" name="number" value="" placeholder="Introduce tu número">

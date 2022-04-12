@@ -5,25 +5,31 @@
     list-style: none;
 }
 
+
 a:link{
     text-decoration: none;
+}
+
+.cursor{
+    cursor:crosshair;
 }
 
 body{
     display:flex;
     flex-wrap:wrap;    
     justify-content: center;
-    background-color: black;
+    background-color: black;  
 }
 
-.container_top{
-    display:flex;
-    justify-content: space-between;
-    height: 5vw;
-    background-color: #6b705c;
-    width: 100%;
-}
-
+.video{
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    z-index:-1;
+  }
+  
 .box_top_left{
     display:flex;   
     width: 50vw;
@@ -62,15 +68,33 @@ body{
     display:flex;
     justify-content: space-around;
     font-size: 2em;
-    background-color: #ffe8d6;
-    padding:0.2em;   
-   
+    background-color: black;
+    padding:0.2em; 
+    font-family: 'Press Start 2P', cursive;
+    height:2em;
+    align-items:center;
+      
+}
+
+.palo{
+    color:white;
+}
+
+.container_box{
+    display:flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;  
+    line-height: 8em;
+    margin-top:15em;
+    
 }
 
 .container_biogif{
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     height: 3em;
+    padding:2em;
     
     
 }
@@ -79,17 +103,35 @@ body{
     display:flex;
     align-items: center;
     justify-content:center;
-    font-size: 1.5em;
-    background-color: black;
     color:white;
     font-family: 'Press Start 2P', cursive;
     letter-spacing: 1em;
+    margin-top:1em;    
+}
+
+.pad{
+    width:40%;
+}
+
+.piano{
+    width:50%;
     
+}
+
+.piano_container{
+    display:flex;
+    justify-content: center;
+    margin-top:6em;
 }
 .video{
     object-fit:cover;
     height:3em; 
     width:48em;
+}
+
+.pic{
+    display:flex;
+
 }
 .container_biopic{
     display:flex;
@@ -100,13 +142,14 @@ body{
     border-style: dashed;
     border-radius: 3em;
     outline: #8a36ba solid 10px;
-    margin-top:1em;
+    margin-top:3em;
     
     
 }
 .bio{
     font-family: 'Press Start 2P', cursive;
-    line-height: 4em;       
+    line-height: 4em; 
+    width:60%;      
 }
 .pic{
     display:flex;
@@ -115,24 +158,104 @@ body{
 }
 
 .line{
-    width: 80%;
+    width: 100%;
     margin:auto;
 }
 
 .container_info{
-    width:90%;
+    width:77%;
     margin:auto;
     background-color: green;
     margin-top:3em;
-    padding:2em;
+    padding:3em;
     border-style:dashed;
     border-radius:3em;
     outline: #8a36ba solid 10px;
-}
-
-.info{
     display:flex;
     justify-content: center;
+    font-family: 'Press Start 2P', cursive;
     line-height: 3em;
+    flex-direction: row-reverse;  
 }
+
+.bottom{
+    display:flex; 
+    margin-top:3em;
+    padding:3em;
+    border-style:dashed;
+    border-radius:3em;
+    outline: #8a36ba solid 10px; 
+    background-color: green; 
+    font-family: 'Press Start 2P', cursive;
+}
+
+.general_bottom{
+    display:flex;
+    outline: #8a36ba solid 10px; 
+    background-color: green; 
+    font-family: 'Press Start 2P', cursive;
+    padding:2em;
+    line-height: 3em;
+    margin-top: 4em;
+    width:80vw;
+    margin-left:8.5em;
+    margin-right:5em;
+    border-style:dashed;
+    outline: #8a36ba solid 10px;     
+}
+
+.pad_container{
+    display:flex;
+    justify-content:center; 
+    margin-top:3em;
+}
+
+.computer{
+    width:40%;
+}
+
+.pc_container{
+    display:flex;
+    justify-content: center;
+    margin-top:2em;   
+}
+
+.bottom_left{
+    padding:3em;
+}
+
+.bottom_center{
+    padding:3em;
+}
+
+.bottom_rigth{
+    padding:3em;
+}
+
+.text{
+    margin-left:3em;
+    margin-top:2.5em;
+}
+
+.hover1, .hover2, .hover3, .hover4{
+    transition: 800ms;
+    border-radius: 3em;
+    padding:0.3em;
+    }
+ 
+ .hover1:hover{
+     background-color:red;
+ }
+ 
+ .hover2:hover{
+     background-color: green;
+ }
+ 
+ .hover3:hover{
+     background-color: yellow
+ }
+ 
+ .hover4:hover{
+     background-color: rgb(0, 195, 255);
+ }
         
